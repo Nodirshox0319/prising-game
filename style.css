@@ -77,7 +77,7 @@ p{
 
 @media only screen and (max-width:550px){
     main{
-    width: 80%;
+    width: 100%;
     }
     .left__navbar{
         display: none;
