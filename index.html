@@ -5,111 +5,287 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
-        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-    <title>Streaming Game.</title>
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:200,regular,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:700" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="main.js"></script>
+    <title>STREAMING.COM</title>
+
 </head>
 
 <body>
+    <div class="wrapper">
 
-    <main>
-        <section class="left__navbar">
-            <div class="st2">
-                <h5>STREAMING.com</h5><br>
-                <button class="btn btn-primary" disabled>
-                    <span class="spinner-grow spinner-grow-sm"></span>
-                    Explore
-                </button><br><br>
-                <button class="btn btn-primary" disabled>
-                    <span class="spinner-grow spinner-grow-sm"></span>
-                    Hightlighte
-                </button><br><br>
-                <button class="btn btn-primary" disabled>
-                    <span class="spinner-grow spinner-grow-sm"></span>
-                    Following
-                </button><br><br>
-                <h5>Featured</h5>
-                <div class="rasm">
-                    <img src="unsplash_4Yv84VgQkRM.png" alt="">
-                    <h6>FunnShtuf</h6>
-                </div><br>
-                <div class="rasm">
-                    <img src="unsplash_9rKSUbYaric.png" alt="">
-                    <h6>GreatUser</h6>
-                </div><br>
-                <div class="rasm">
-                    <img src="unsplash_jmURdhtm7Ng.png" alt="">
-                    <h6>JraulFernandez</h6>
-                </div>
-            </div>
-        </section>
-        <section class="main__content">
-            <div class="poisk">
-                <input type="text" placeholder="Search for somethimes">
-                <img width="15" src="grgr.png" alt="">
-                <img width="15" src="Vector.png" alt="">
-                <img width="10" src="Ellipse 1.png" alt="">
-
-            </div>
-            <div class="page">
-               <img src="Hero.png" alt="">
-            </div>
-            <div class="orta">
-                <h1>Popular Games</h1>
-                <button type="button" class="btn btn-outline-info">See All</button>
-            </div><br>
-
-            <div class="flax">
-                <div class="para">
-                    <img width="140" src="Image (1).png" alt="">
-                    <p>Fortnite</p>
-                </div>
-                <div class="para">
-                    <img width="140" src="Image (2).png" alt="">
-                    <p>Infinite</p>
-                </div>
-                <div class="para">
-                    <img width="140" src="Image (3).png" alt="">
-                    <p>Among Us</p>
-                </div>
-                <div class="para">
-                    <img width="140" src="Image.png" alt="">
-                    <p>MineCraft</p>
-                </div>
-
-            </div>
-            <div class="flax">
-                <div class="para">
-                    <img width="150" src="Image (5).png" alt="">
-                    <p>Fortnite</p>
-                </div>
-                <div class="para">
-                    <img width="150" src="Image (6).png" alt="">
-                    <p>Infinite</p>
-                </div>
-                <div class="para">
-                    <img width="150" src="Image (7).png" alt="">
-                    <p>Among Us</p>
-                </div>
-                
-
+        <header class="header">
+            <div id="burgermenu">
+                <span></span>
             </div>
 
-        </section>
+            <div class="left--panel__logo header-logo__burger">STREAMING<span>.COM</span></div>
+
+            <div class="header--input">
+                <div class="input"><img src="img/search-solid.svg" alt=""> <input type="text"
+                        placeholder="Search for something"></div>
+            </div>
 
 
-    </main>
+            <div class="header--contacts">
+                <span><img src="img/bell.png" alt=""></span>
+                <span><img src="img/bell-regular.svg" alt=""></span>
+                <span><img src="img/Ellipse 1.png" alt=""></span>
+            </div>
+        </header>
+
+        <div class="left--panel">
+
+            <div class="left--panel__logo">STREAMING<span>.COM</span></div>
+
+            <div class="panel--content">
+
+                <div class="panel--content__lists ">
+                    <ul class="lists--items">
+
+                        <li class="list--item item__gray">
+                            <div class="item--icon"><img src="img/com.svg" alt=""></div>
+                            <span class="item--text">
+                                Explore
+                            </span>
+
+
+                        </li>
+
+                        <li class="list--item">
+                            <div class="item--icon">
+                                <img src="img/Highlights.svg" alt="">
+                            </div>
+                            <span class="item--text">
+                                Highlights
+                            </span>
+
+
+                        </li>
+                        <li class="list--item list--item__last">
+                            <div class="item--icon"><img src="img/Following.svg" alt=""></div>
+                            <span class="item--text">
+                                Following
+                            </span>
+
+
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="panel--content__subtitle">
+                    Featured
+                </div>
 
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
-        crossorigin="anonymous"></script>
+
+                <div class="panel--content__tabs">
+
+                    <div class="tabs--items">
+                        <div class="tabs--item ">
+
+                            <img src="img/unsplash_jmURdhtm7Ng.png" alt="">
+                            <div class="item--content">
+                                <div class="item--username">jraulhernandezb <span>1200</span></div>
+                                <div class="item--game__name">League of Legends</div>
+                            </div>
+                        </div>
+                        <div class="tabs--item tab--item__gray">
+                            <img src="img/Frame 272.png" alt="">
+                            <div class="item--content">
+                                <div class="item--username">GreatUser <span>7657</span></div>
+                                <div class="item--game__name">Among Us </div>
+                            </div>
+                        </div>
+                        <div class="tabs--item tab--item__gray">
+                            <img src="img/unsplash_4Yv84VgQkRM.png" alt="">
+                            <div class="item--content">
+                                <div class="item--username">FunStufff <span>7675</span></div>
+                                <div class="item--game__name">Minecraft</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+
+
+            </div>
+
+
+
+        </div>
+
+        <div class="right--window main">
+
+            <div class="main--block">
+
+                <div class="main-block__content">
+                    <h1>Cras quis hendrerit nisi.</h1>
+                    <p>Vestibulum hendrerit est sed porta dictum.</p>
+                    <div class="button main-button">Go Live</div>
+                </div>
+
+
+            </div>
+
+            <div class="right--window__bottom bottom">
+
+
+
+
+                <div class="right--window__container">
+
+                    <div class="bottom__subtitle">
+                        <h2>Popular Games </h2>
+                        <div class="bottom-btn">See all</div>
+                    </div>
+
+
+                </div>
+
+                <div class="valiable-games">
+                    <div class="valiable-games__container games">
+                        <div class="games--block">
+                            <div class="game--block__item game">
+                                <div class="game--img">
+                                    <img src="img/Minecraft.png" alt="">
+                                </div>
+                                <div class="game--content">
+                                    <p class="game-title">Minecraft</p>
+                                    <p class="game-watchers">300 people watching</p>
+                                </div>
+                            </div>
+
+                            <div class="game--block__item game">
+                                <div class="game--img">
+                                    <img src="img/Image.png" alt="">
+                                </div>
+                                <div class="game--content">
+                                    <p class="game-title">Fortnite</p>
+                                    <p class="game-watchers">300 people watching</p>
+                                </div>
+                            </div>
+
+                            <div class="game--block__item game">
+                                <div class="game--img">
+                                    <img src="img/infinite.png" alt="">
+                                </div>
+                                <div class="game--content">
+                                    <p class="game-title">Halo Infinite</p>
+                                    <p class="game-watchers">300 people watching</p>
+                                </div>
+                            </div>
+
+                            <div class="game--block__item game">
+                                <div class="game--img">
+                                    <img src="img/among.png" alt="">
+                                </div>
+                                <div class="game--content">
+                                    <p class="game-title">Among Us</p>
+                                    <p class="game-watchers">300 people watching</p>
+                                </div>
+                            </div>
+
+
+
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="right--window__container">
+
+                    <div class="bottom__subtitle">
+                        <h2>Some live channels </h2>
+                        <div class="bottom-btn">See all</div>
+                    </div>
+
+
+                </div>
+
+                <div class="live--games">
+
+                    <div class="valiable-games__container games">
+
+                        <div class="games--block">
+
+                            <div class="live--block__item game">
+                                <div class="game--img">
+                                    <img src="img/livegame1.png" alt="">
+                                </div>
+                                <div class="chip--group">
+                                    <span>Spanish</span> <span>Casual</span>
+                                </div>
+                                <div class="game--content">
+
+
+                                    <p class="game-title">Minecraft</p>
+                                    <p class="game-watchers">300 people watching</p>
+                                </div>
+                            </div>
+
+                            <div class="live--block__item game">
+                                <div class="game--img">
+                                    <img src="img/Image.png" alt="">
+                                </div>
+                                <div class="chip--group">
+                                    <span>Spanish</span> <span>Casual</span>
+                                </div>
+                                <div class="game--content">
+
+                                    <p class="game-title">Fortnite</p>
+                                    <p class="game-watchers">300 people watching</p>
+                                </div>
+                            </div>
+
+                            <div class="live--block__item game">
+                                <div class="game--img">
+                                    <img src="img/livegame1.png" alt="">
+                                </div>
+                                <div class="chip--group">
+                                    <span>Spanish</span> <span>Casual</span>
+                                </div>
+                                <div class="game--content">
+
+                                    <p class="game-title">Halo Infinite</p>
+                                    <p class="game-watchers">300 people watching</p>
+                                </div>
+                            </div>
+
+
+
+
+
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+            </div>
+        </div>
+
+
+    </div>
 </body>
 
 </html>
